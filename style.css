@@ -1,0 +1,22 @@
+#grid {
+    display: grid;
+    grid-template-columns: 100px 40px 190px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#grid div {
+    padding: 2px;
+}
+#grid div:first-child {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 10px;
+    text-align: center;
+    color: rgb(216, 11, 11);
+    font-weight: bold;
+}
+#grid div:last-child {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 6px;
+    text-align: center;
+}
